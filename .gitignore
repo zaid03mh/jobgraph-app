@@ -1,0 +1,45 @@
+# ============================================
+# Rapport et Présentation (Exclus)
+# ============================================
+*.pdf
+*.pptx
+*.ppt
+JobGraph - Système de Recommandation.pptx
+rapport_no_sql*.pdf
+
+# ============================================
+# Dépendances
+# ============================================
+node_modules/
+*/node_modules/
+
+# ============================================
+# Variables d'environnement sensibles
+# ============================================
+.env
+.env*.local
+backend/.env
+
+# ============================================
+# Expo & Mobile
+# ============================================
+.expo/
+.expo-shared/
+web-build/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+
+# ============================================
+# Logs et fichiers système / IDE
+# ============================================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
